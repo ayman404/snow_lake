@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/favicon.png">
+	<title>Snowflake</title>
+	<link rel="stylesheet" type="text/css" href="modal-popup2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/bd4d35510f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<section class="header">
+		<nav data-spy="affix" data-offset-top="197">
+			<a href="index.html"><img src="images/logo-light.png"></a>
+			<div class="nav-links">
+				<i class="fas fa-times" onclick="hideMenu()" ></i>
+				<a class="fas" href="index.html" ><img src="images/logo-light.png"></a>
+				<ul>
+					<li><a href="" class="active">Home</a>
+						<div class="sub-navbar1" id="navwidth1">
+							<ul>
+								<li><a href="#">Digital Startup</a></li>
+								<li><a href="#">Saas Landing</a></li>
+								<li><a href="#">SEO Agency</a></li>
+								<li><a href="#">Modern Business</a></li>								
+								<li><a href="#">Design Agency</a></li>
+								<li><a href="#">App Presentation</a></li>
+								<li><a href="#">Creative Landing</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">Marketing Startup</a></li>
+								<li><a href="#">Digital Agency</a></li>
+								<li><a href="#">Creative Business</a></li>
+								<li><a href="#">Software Landing</a></li>
+								<li><a href="#">App Landing</a></li>
+								<li><a href="#">Creative Agency</a></li>
+								<li><a href="#">Wedding Photography</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">Food Photography</a></li>
+								<li><a href="#">Creative Onepage</a></li>
+								<li><a href="#">Marketing Company</a></li>
+								<li><a href="#">Startup Business</a></li>
+								<li><a href="#">Creative Resume</a></li>
+								<li><a href="#">Digital Studio</a></li>
+								<li><a href="#">Travel Blog</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">Minimal Shop</a></li>
+								<li><a href="#">Minimal Portfolio</a></li>
+								<li><a href="#">Coming Soon</a></li>
+								<li><a href="#">Personal Creative</a></li>
+								<li><a href="#">Minimal Photography</a></li>
+								<li><a href="#">Design Agency</a></li>
+								<li><a href="#">Maintenance</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="" class="active">Features</a>
+						<div class="sub-navbar1" id="navwidth2">
+							<ul>
+								<li class="hover-me"><a href="">Header</a>
+									<div class="sub-navbar2">	
+										<ul>
+											<li><a href="#">Classic Header</a></li>
+											<li><a href="#">Classic Light Header</a></li>
+											<li><a href="#">Classic Dark Header</a></li>
+											<li><a href="#">Header With Topbar</a></li>
+											<li><a href="#">Wide Header</a></li>
+											<li><a href="#">Extended Header</a></li>
+											<li><a href="#">Fancy Light Header</a></li>
+											<li><a href="">Centered Header</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="hover-me"><a href="">Footer</a>
+									<div class="sub-navbar2">
+										<ul>
+											<li><a href="#">Footer With Details</a></li>
+											<li><a href="#">Centered Footer</a></li>
+											<li><a href="#">Simple Footer</a></li>
+											<li><a href="#">Footer With Widgets</a></li>
+											<li><a href="#">Minimalist Footer</a></li>
+											<li><a href="#">Footer With Overflow</a></li>
+											<li><a href="#">Footer With Background Image</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="hover-me"><a href="">Page Title</a>
+									<div class="sub-navbar2">
+										<ul>
+											<li><a href="#">Pagen Title With Image</a></li>
+											<li><a href="#">Page Title With Breadcrumbs</a></li>
+											<li><a href="#">Page Title With Light Wrapper</a></li>
+											<li><a href="#">Page Title With Gray Wrapper</a></li>
+											<li><a href="#">Page Title With Dark Wrapper</a></li>
+											<li><a href="#">Page Title With Colored Wrapper</a></li>
+											<li><a href="#">Page Title With Gradient Wraper</a></li>
+											<li><a href="">Page Title With Video Wrapper</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="hover-me"><a href="">Modal Popup</a>
+									<div class="sub-navbar2">
+										<ul>
+											<li><a href="#">Subscription</a></li>
+											<li><a href="#">Subscription Alternative</a></li>
+											<li><a href="#">Sign Up</a></li>
+											<li><a href="#">Contact Form</a></li>
+											<li><a href="#">Cookie</a></li>
+											<li><a href="#">Sale</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="hover-me"><a href="">Jost</a>
+									<div class="sub-navbar2">
+										<ul>
+											<li><a href="#">Jost</a></li>
+											<li><a href="#">Nunito</a></li>
+											<li><a href="#">DM Sans + Zilla Slab</a></li>
+											<li><a href="#">HK Grotesk</a></li>
+											<li><a href="#">Abhaya Libre</a></li>				
+										</ul>
+									</div>
+								</li>
+								<li class="hover-me"><a href="">Colors</a>
+									<div class="sub-navbar2">
+										<ul>
+											<li><a href="#">Aqua</a></li>
+											<li><a href="#">Blue</a></li>
+											<li><a href="#">Brown</a></li>
+											<li><a href="#">Cobalt</a></li>
+											<li><a href="#">Green</a></li>
+											<li><a href="#">Hibiscus</a></li>
+											<li><a href="#">Leaf</a></li>
+											<li><a href="#">Meander</a></li>
+											<li><a href="#">Orange</a></li>
+											<li><a href="#">Pink</a></li>
+											<li><a href="#">Purple</a></li>
+											<li><a href="#">Red</a></li>
+											<li><a href="#">Rose</a></li>
+											<li><a href="#">Sky</a></li>
+											<li><a href="#">Teal</a></li>
+											<li><a href="#">Violet</a></li>
+											<li><a href="#">Yellow</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="hover-me"><a href="">Onepage</a>
+									<div class="sub-navbar2">
+										<ul>
+											<li><a href="">Demo I</a></li>
+											<li><a href="">Demo II</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="">Box Layout</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="" class="active">Pages</a>
+						<div class="sub-navbar1" id="navwidth3">
+							<ul>
+								<li class="hover-me"><a href="">Services</a>
+									<div class="sub-navbar2">
+										<ul>
+						                    <li><a href="services.html">Services I</a></li>
+						                    <li><a href="services2.html">Services II</a></li>
+						                    <li><a href="services3.html">Services III</a></li>
+						                    <li><a href="services4.html">Services IV</a></li>
+						                    <li><a href="services5.html">Services V</a></li>
+				                  		</ul>
+				                  	</div>
+			                  	</li>
+              
+                				<li class="hover-me"><a href="#">About</a>
+                					<div class="sub-navbar2">
+						                <ul>
+						                   <li ><a href="about.html">About I</a></li>
+						                   <li ><a href="about2.html">About II</a></li>
+						                   <li ><a href="about3.html">About III</a></li>
+						                   <li ><a href="about4.html">About IV</a></li>
+						                </ul>
+						            </div>
+				                </li>
+				                <li class="hover-me"><a href="#">Shop</a>
+				                	<div class="sub-navbar2">
+					                    <ul>
+						                    <li><a href="shop.html">Shop</a></li>
+						                    <li><a href="shop2.html">Shop with Sidebar</a></li>
+						                    <li><a href="shop3.html">Shop with Left Sidebar</a></li>
+						                    <li><a href="shop-product.html">Product Page</a></li>
+						                    <li><a href="shop-cart.html">Shopping Cart</a></li>
+						                    <li><a href="shop-checkout.html">Checkout</a></li>
+						                </ul>
+						            </div>
+				                </li>
+				                <li class="hover-me"><a href="#">Contact</a>
+				                	<div class="sub-navbar2">
+					                  	<ul>
+						                    <li><a href="contact.html">Contact I</a></li>
+						                    <li><a href="contact2.html">Contact II</a></li>
+						                    <li><a href="contact3.html">Contact III</a></li>
+						                    <li><a href="contact4.html">Contact IV</a></li>
+						                </ul>
+						            </div>
+				                </li>
+				                <li><a href="faq.html">FAQ</a></li>
+				                <li><a href="page-loading.html">Page Loading</a></li>
+				                <li><a href="scroll-animation.html">Scroll Animation</a></li>
+				            </ul>
+						</div>
+					</li>
+
+					<li><a href="" class="active">Elements</a>
+						<div class="sub-navbar1" id="navwidth4">
+							<ul>
+								<li><a href="accordion.html">Accordion</a></li>
+		                        <li><a href="alerts.html">Alerts</a></li>
+		                        <li><a href="animated-text.html">Animated Text</a></li>
+		                        <li><a href="blockquote.html">Blockquote</a></li>
+		                        <li><a href="buttons-badges.html">Buttons & Badges</a></li>
+		                        <li><a href="call-to-action.html">Call to Action</a></li>
+		                        <li><a href="carousel.html">Carousel</a></li>
+		                        <li><a href="clients.html">Clients</a></li>
+		                        <li><a href="countdown.html">Countdown</a></li>
+		                        <li><a href="counter.html">Counter</a></li>
+							</ul>
+							<ul>
+								<li><a href="dividers.html">Dividers</a></li>
+		                        <li><a href="dropcap.html">Dropcap</a></li>
+		                        <li><a href="forms.html">Forms</a></li>
+		                        <li><a href="icon-concept.html">Icons - Concept</a></li>
+		                        <li><a href="icon-jam.html">Icons - Jam</a></li>
+		                        <li><a href="icon-icofont.html">Icons - Icofont</a></li>
+		                        <li><a href="icon-lineal.html">Icons - Lineal</a></li>
+		                        <li><a href="icon-box.html">Icon Box</a></li>
+		                        <li><a href="image-hover.html">Image Hover</a></li>
+		                        <li><a href="image-mask.html">Image Mask</a></li>
+							</ul>
+							<ul>
+								<li><a href="lightbox.html">Lightbox</a></li>
+		                        <li><a href="lists.html">Lists</a></li>
+		                        <li><a href="player.html">Media Player</a></li>
+		                        <li><a href="modal.html">Modal</a></li>
+		                        <li><a href="pricing.html">Pricing Tables</a></li>
+		                        <li><a href="process.html">Process Steps</a></li>
+		                        <li><a href="progressbar.html">Progress Bar</a></li>
+		                        <li><a href="animations.html">Scroll Animations</a></li>
+		                        <li><a href="social-icons.html">Social Icons</a></li>
+		                        <li><a href="tables.html">Tables</a></li>
+							</ul>
+							<ul>
+								<li><a href="tabs.html">Tabs</a></li>
+		                        <li><a href="team.html">Team</a></li>
+		                        <li><a href="testimonials.html">Testimonials</a></li>
+		                        <li><a href="titles.html">Titles</a></li>
+		                        <li><a href="toggle.html">Toggle</a></li>
+		                        <li><a href="tooltip-popover.html">Tooltip & Popover</a></li>
+		                        <li><a href="typography.html">Typography</a></li>
+		                        <li><a href="video-popup.html">Video Popup</a></li>
+		                        <li><a href="waves.html">Waves</a></li>
+		                        <li><a href="wrappers.html">Wrappers</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li><a href="" class="active">Portfolio</a>
+						<div class="sub-navbar1" id="navwidth5">
+							<ul>
+								<li><a href="portfolio.html">Grid Portfolio</a></li>
+				                <li><a href="portfolio2.html">Grid Portfolio with Details</a></li>
+				                <li><a href="portfolio3.html">Masonry Portfolio</a></li>
+				                <li><a href="portfolio4.html">Masonry Portfolio with Details</a></li>
+				                <li><a href="portfolio5.html">Mosaic Portfolio</a></li>
+				                <li><a href="portfolio6.html">Fullscreen Grid Portfolio</a></li>
+				                <li><a href="portfolio7.html">Portfolio with Item Details</a></li>
+				                <li><a href="portfolio8.html">Box Portfolio with Item Details</a></li>
+				                <li class="hover-me"><a href="#">Portfolio Posts</a>
+				                	<div class="sub-navbar2">
+						                <ul>
+						                    <li><a href="portfolio-post.html">Post with Multiple Images</a></li>
+						                    <li><a href="portfolio-post2.html">Post with Slider</a></li>
+						                    <li><a href="portfolio-post3.html">Post with Masonry Gallery</a></li>
+						                    <li><a href="portfolio-post4.html">Post with Carousel</a></li>
+						                    <li><a href="portfolio-post5.html">Post with Columns</a></li>
+						                    <li><a href="portfolio-post6.html">Post with Video</a></li>
+						                </ul>
+						            </div>
+				                </li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="" class="active">Blog</a>
+						<div class="sub-navbar1" id="navwidth6">
+							<ul>
+								<li><a href="blog.html">Grid View</a></li>
+				                <li><a href="blog2.html">Grid View with Sidebar</a></li>
+				                <li><a href="blog3.html">Box Grid View</a></li>
+				                <li><a href="blog4.html">Box Grid View with Sidebar</a></li>
+				                <li><a href="blog5.html">Classic View</a></li>
+				                <li><a href="blog6.html">Classic View with Sidebar</a></li>
+				                <li><a href="blog7.html">Box Classic View</a></li>
+				                <li><a href="blog8.html">Box Classic View with Sidebar</a></li>
+				                <li class="hover-me"><a href="#">Blog Posts</a>
+				                	<div class="sub-navbar2">
+						                <ul>
+						                    <li ><a href="blog-post.html">Post No Sidebar</a></li>
+						                    <li ><a href="blog-post2.html">Post with Sidebar</a></li>
+						                    <li ><a href="blog-post3.html">Box Post No Sidebar </a></li>
+						                    <li ><a href="blog-post4.html">Box Post with Sidebar </a></li>
+						                </ul>
+						            </div>
+				                </li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<a href="#"><i class="fas fa-search"></i></a>
+			<a href="#"><i class="fas fa-exclamation-circle"></i></a>
+			<a href="" id="bars"><i class="fas fa-bars" onclick="showMenu()"></i></a>
+		</nav>
+	</section>
+	<div class="text-box">
+		<h1>Subscription Popup - Alternative</h1>
+		<p>Modals can be used as popups at page load.</p>
+		<a href="" class="hero-btn">ALL MODAL EXAMPLES</a>
+	</div>
+	</section>
+
+	<section class="couleur">
+		<div class="main">
+			<h2>WHAT WE DO?</h2>
+			<h3>The full service we are offering is specifically<br>designed to meet your business needs.</h3>
+			<div class="row">	
+				<div class="row1">
+					<div class="main-col">
+						<div><img src="images/cap1.png"></div>
+						<div>
+							<h5>24/7 Support</h5>
+							<p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
+						</div>
+					</div>
+					<div class="main-col">
+						<div><img src="images/cap2.png"></div>
+						<div>
+							<h5>Secure Payments</h5>
+							<p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
+						</div>
+					</div>
+					<div class="main-col">
+						<div><img src="images/cap3.png"></div>
+						<div>
+							<h5>Daily Updates</h5>
+							<p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row1">
+					<div class="main-col">
+						<div><img src="images/cap4.png"></div>
+						<div>
+							<h5>Research & Marketing</h5>
+							<p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
+						</div>
+					</div>
+					<div class="main-col">
+						<div><img src="images/cap5.png"></div>
+						<div>
+							<h5>System Integration</h5>
+							<p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
+						</div>
+					</div>
+					<div class="main-col">
+						<div><img src="images/cap6.png"></div>
+						<div>
+							<h5>SEO Service</h5>
+							<p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="video-text">
+		<div class="video">
+			<img src="images/cap10.png" >
+			<a href="https://www.youtube.com/watch?v=26TbMXXOe0I" target="_blank" class="play-btn"><i class="fas fa-play"></i></a>
+		</div>
+			<div class="text">
+			<h2>OUR PROCESS</h2>
+			<h3>Find out everything you need to know about creating a business process.</h3>
+			<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio.</p>
+			<div class="value-row">
+				<div class="value-row1">
+					<h1>7518</h1>
+					<p>Completed Projects</p>
+				</div>
+				<div class="value-row1">
+					<h1>3472</h1>
+					<p>Satisfied Customers</p>
+				</div>
+				<div class="value-row1">
+					<h1>523</h1>
+					<p>Awards Won</p>
+				</div>	
+			</div>
+ 		</div>
+	</section>
+
+	<section class="couleur">
+		<div class="solutions1">
+			<div class="solutions2">
+				<h2>HOW IT WORKS?</h2>
+				<h3 id="s2-h3">We bring solutions to make life easier for our customers</h3>
+				<div class="sol">		
+					<div><img src="images/cap7.png" class="solutionstext-img"></div>
+					<div>
+						<h5>24/7 Support</h5>
+						<p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
+					</div>
+				</div>
+				<div class="sol">
+					<div><img src="images/cap8.png" class="solutionstext-img"></div>
+					<div>
+						<h5>Secure Payments</h5>
+						<p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
+					</div>
+				</div>						
+				<div class="sol">
+					<div><img src="images/cap9.png" class="solutionstext-img"></div>
+					<div>
+						<h5>Daily Updates</h5>
+						<p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo.</p>
+					</div>
+				</div>
+			</div>
+			<div class="solu-img"><img src="images/concept1.png"></div>
+		</div>
+	</section>
+
+	<section class="contain">
+		<div class="slider">
+			<input type="radio" class="radio" name="images" id="radio-1">
+			<input type="radio" class="radio" name="images" id="radio-2">
+			<input type="radio" class="radio" name="images" id="radio-3">
+
+			<div class="slide" id="slide-1">
+	    		<img src="images/bg5.jpg" alt="">
+				<div class="caption">
+					<h2>CUSTOMER STORIES</h2>
+					<p>"sed posuere consectetur est at lobortis. Lorem ipsum dolor qit amet,<br>
+						consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi<br>
+						erat."
+					</p>
+					<div>
+						<h1>Cornelia Gibson</h1>
+						<h3>Financial Analyst</h3>
+						<img src="images/t5.jpg">
+					</div>
+				</div>
+			</div>
+			<div class="slide" id="slide-2">
+				<img src="images/bg5.jpg" alt="">
+				<div class="caption">
+					<h2>CUSTOMER STORIES</h2>
+					<p>"Vivamos sagittis vel augue laoreet rutrum faucibus dolor<br>
+						auctor. Vestibulum id ligula porta felis eyismod semper. Cras justo<br>
+						odio, dapibus."
+					</p>
+					<div>
+						<h1>Coris Ambady</h1>
+						<h3>Marketing Specialist</h3>
+						<img src="images/t2.jpg">
+					</div>
+				</div>
+			</div>
+			<div class="slide" id="slide-3">
+				<img src="images/bg5.jpg" alt="">
+				<div class="caption">
+					<h2>CUSTOMER STORIES</h2>
+					<p>"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget<br>
+						lacinia odio sem nec elit. Cras justo odio, dapibus ac facilis in,<br>
+						egestas eget."
+					</p>
+					<div>
+						<h1>Barclay Widerski</h1>
+						<h3>Sales Manager</h3>
+						<img src="images/t3.jpg">
+					</div>
+				</div>
+			</div>
+			<div class="dots">
+				<label for="radio-1" id="label-1"></label>
+				<label for="radio-2" id="label-2"></label>
+				<label for="radio-3" id="label-3"></label>
+			</div>
+		</div>
+	</section>
+
+	<section class="couleur">
+		<div class="solutions1 box">
+			<div class="solutions2 solutions2-width2">
+				<h2>OUR PRICING</h2>
+				<h3>We offer great prices,    premium products and quality service for your business.</h3>
+				<p class="parag">Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+				<a href="" class="hero-btn btn-purple">SEE ALL PRICES</a>
+			</div>
+			<div class="price">
+				<div class="solutions1-width1 price1">
+					<div>
+						<span>$</span><span class="nbrbold">9</span><span>/month</span>
+						<h4>Basic Plan</h4>
+					</div>
+					<div >
+						<span class="bold">1 </span><span>Project</span><br>
+						<span class="bold">100K </span><span>API Access</span><br>
+						<span class="bold">100MB </span><span>Storage</span><br>
+						<span>Custom </span><span class="bold">Cloud </span><span>Services</span><br>
+						<span>Weekly </span><span class="bold">Reports</span><br>
+						<span>7/24 </span><span class="bold">Support</span><br>
+					</div>
+					<div><a href="" class="hero-btn btn-purple">CHOOSE PLAN</a></div>
+				</div>
+				<div class="solutions1-width2 price2">
+					<div>
+						<span>$</span><span class="nbrbold">9</span><span>/month</span>
+						<h4>Basic Plan</h4>
+					</div>
+					<div >
+						<span class="bold">1 </span><span>Project</span><br>
+						<span class="bold">100K </span><span>API Access</span><br>
+						<span class="bold">100MB </span><span>Storage</span><br>
+						<span>Custom </span><span class="bold">Cloud </span><span>Services</span><br>
+						<span>Weekly </span><span class="bold">Reports</span><br>
+						<span>7/24 </span><span class="bold">Support</span><br>
+					</div>
+					<div><a href="" class="hero-btn btn-purple">CHOOSE PLAN</a></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="talk">
+		<div>
+			<img src="images/concept2.png" class="talk-img">
+		</div>
+		<div class="solutions2 solutions2-width3 talk1">
+			<h2>LET'S TALK</h2>
+			<h3>Let's make something great together. If you got any questions, don't hesitate to get in touch with us.</h3>
+			<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.</p>
+			<a href="" class="hero-btn btn-purple">GET STARTED</a>
+			<a href="" class="hero-btn btn-blue">CONTACT US</a>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="cont-row">
+				<div class="footer-parag">
+					<img src="images/logo-light.png">
+					<p>Snowlake is a multi-concept and powerful site template contains rich layouts with possibility of unlimited combinations & beautiful elements.</p>
+				</div>	
+				<div class="footer-col">
+					<h5>Need Help?</h5>
+					<ul>
+						<li><a href="">Support</a> </li>
+						<li><a href="">Get Started</a></li>
+						<li> <a href="">Terms of Use</a></li>
+						<li><a href="">Privacy Policy</a></li>
+						<li><a href="">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h5>Learn More</h5>
+					<ul>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Our Story</a></li>
+						<li><a href="">Projects</a></li>
+						<li><a href="">Pricing</a></li>
+						<li><a href="">Features</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h5>Company</h5>
+					<ul>
+						<li><a href="">Our Team</a></li>
+						<li><a href="">Strategy</a></li>
+						<li><a href="">Service</a></li>
+						<li><a href="">Mission</a></li>
+						<li><a href="">Process</a></li>
+					</ul>
+				</div>
+				<div class="footer-col footer-parag">
+					<h5>Contact</h5>
+					<p>Moonshine St. 14/05</p>
+					<p>Light City, London</p>
+					<br>
+					<a href="">info@email.com</a>
+					<p>+00 (123) 456 78 90</p>
+				</div>
+			</div>
+			<div class="last">
+				<p>© 2020 Snowlake. All rights reserved.</p>
+				<ul>
+					<li><a href=""><i class="fab fa-twitter"></i></a></li>
+					<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href=""><i class="fab fa-instagram"></i></a></li>
+					<li><a href=""><i class="fab fa-vimeo-v"></i></a></li>
+					<li><a href=""><i class="fab fa-youtube"></i></a></li>
+				</ul>	
+			</div>
+		</div>
+	</footer>
+
+<!------------JavaScript For Menu---------->	
+<script>
+	var navlinks=document.getElementById("navlinks");
+	function showMenu(){
+		navlinks.style.left="0";
+	}
+	function hideMenu(){
+		navlinks.style.left="-50px";
+	}
+</script>
+
+<!--------Javascript Navbar--------------->
+<!--<script type="text/javascript">
+	window.addEventListener("scroll",function(){
+		var header = document.querySelector("nav");
+		header.classList.toggle("sticky", window.scrollY > 0);
+	})
+</script>-->
+
+</body>
+</html>
